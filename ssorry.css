@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    flex: 1 0 auto;
+    font-size: 20px;
+    background: black url('theus-nadja-atualisado.jpeg') no-repeat center center/cover fixed; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.text{
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+}
